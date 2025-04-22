@@ -289,3 +289,14 @@ img {
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+section {
+    display: none;
+}
+
+section {
+    padding: 20px;
+    font-size: 16px;
+    color: black; 
