@@ -151,7 +151,7 @@ section {
 
 
 
-/* Form styling */
+
 form {
     display: flex;
     flex-direction: column;
@@ -168,7 +168,7 @@ input, textarea {
     font-size: 16px;
 }
 
-/* Validation: Green for valid, Red for invalid */
+
 input:valid, textarea:valid {
     border-color: green;
 }
@@ -177,7 +177,7 @@ input:invalid, textarea:invalid {
     border-color: red;
 }
 
-/* Button styling */
+
 button {
     background-color: #333;
     color: white;
@@ -192,8 +192,8 @@ button:hover {
 }
 
 #home p {
-    flex: 1; /* Allows paragraph to take up available space */
-    text-align: right; /* Ensures text is aligned to the right */
+    flex: 1; 
+    text-align: right; 
 }
 
 
@@ -209,15 +209,15 @@ footer {
 }
 
 h2 {
-  color: purple; /* You can use color names, HEX, RGB, or HSL values */
+  color: purple; 
 }
 
 h3 {
-  color: #FF69B4; /* Light pink in HEX */
+  color: #FF69B4; 
 }
 
 img {
-  border-radius: 20px; /* Adjust for softer or sharper edges */
+  border-radius: 20px; 
 }
 
 
@@ -229,12 +229,12 @@ img {
 }
 
 .home-img {
-  width: 100%; /* Makes the image take full space in its grid section */
-  border-radius: 15px; /* Optional: Adds rounded corners */
+  width: 100%; 
+  border-radius: 15px; 
 }
 
 .home-content {
-  text-align: left; /* Aligns text neatly */
+  text-align: left; 
   padding: 20px;
 }
 
@@ -245,28 +245,28 @@ img {
 
 
 .about-me p {
-  writing-mode: vertical-rl; /* Text flows top to bottom, right to left */
-  text-orientation: upright; /* Keeps letters readable */
+  writing-mode: vertical-rl; 
+  text-orientation: upright; 
 }
 
 
 figcaption {
-  color: gray; /* Optional: Make it visually distinct */
+  color: gray; 
   font-size: 14px;
 }
 
 body {
-  background-color: #ffffff; /* Light background */
-  color: #222222; /* Dark text for contrast */
-  font-size: 18px; /* Readable font size */
+  background-color: #ffffff; 
+  color: #222222; 
+  font-size: 18px; 
 }
 
 h2, h3 {
-  font-size: 22px; /* Slightly larger headers */
+  font-size: 22px; 
 }
 
 button:focus, a:focus {
-  outline: 3px solid #ffb6c1; /* Highlight focus state */
+  outline: 3px solid #ffb6c1; 
 }
 img {
   max-width: 100%;
@@ -282,8 +282,8 @@ img {
 
 .home-content {
   text-align: justify;
-  line-height: 1.6; /* Adjusts spacing between lines */
-  word-spacing: 2px; /* Adds a slight gap between words */
+  line-height: 1.6; 
+  word-spacing: 2px; 
 }
 
 RewriteEngine On
